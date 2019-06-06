@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "ts-node-dev --respawn --transpileOnly src/server.ts"
+    "watch": "ts-node-dev --respawn src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/jjabraham/kaputi#readme",
   "dependencies": {
+    "@types/node": "^12.0.5",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "typescript": "^3.5.1"
   },
   "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.17.0",
     "ts-node-dev": "^1.0.0-pre.39"
   }
 }
