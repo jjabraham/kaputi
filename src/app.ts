@@ -1,6 +1,7 @@
 import * as bodyParser from "body-parser";
 import * as express from "express";
 import * as mongoose from "mongoose";
+import models from "models";
 
 const MONGODB_URL = "mongodb://localhost:27017/kaputi";
 const app = express();
