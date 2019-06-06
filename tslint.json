@@ -1,0 +1,55 @@
+{
+  "defaultSeverity": "warning",
+  "rules": {
+    "no-unused-variable": {
+      "severity": "error"
+    },
+    "no-duplicate-variable": {
+      "severity": "error"
+    },
+    "class-name": true,
+    "triple-equals": {
+      "severity": "error"
+    },
+    "no-switch-case-fall-through": {
+      "severity": "error"
+    },
+    "interface-over-type-literal": {
+      "severity": "error"
+    },
+    "no-invalid-template-strings": {
+      "severity": "error"
+    },
+    "no-var-keyword": {
+      "severity": "error"
+    },
+    "prefer-object-spread": {
+      "severity": "error"
+    },
+    "switch-default": {
+      "options": ["ignore -local"],
+      "severity": "error"
+    },
+    "prefer-const": {
+      "severity": "error"
+    },
+    "no-duplicate-imports": {
+      "severity": "error"
+    },
+    "object-literal-shorthand": {
+      "severity": "error"
+    },
+    "interface-name": {
+      "options": ["always-prefix"],
+      "severity": "error"
+    },
+    "variable-name": {
+      "options": ["ban-keywords", "check-format"],
+      "severity": "error"
+    },
+    "prefer-template": {
+      "options": ["allow-single-concat"],
+      "severity": "error"
+    }
+  }
+}
