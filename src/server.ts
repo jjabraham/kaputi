@@ -4,7 +4,6 @@
  * Module dependencies.
  */
 
-console.log("here");
 const app = require('./app');
 const debug = require('debug')('testexpress:server');
 const http = require('http');
