@@ -1,5 +1,8 @@
 import * as mongoose from 'mongoose';
+import User from "./User";
 
-const models = {  };//import models and sticke em in here
+const models = {
+  User
+};//import models and sticke em in here
 
 export default models;
