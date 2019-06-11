@@ -1,7 +1,7 @@
 import * as bodyParser from "body-parser";
 import * as express from "express";
 import * as mongoose from "mongoose";
-import models from "models";
+import models from "./models";
 
 const MONGODB_URL = "mongodb://localhost:27017/kaputi";
 const app = express();
@@ -13,9 +13,9 @@ app.use(bodyParser.json({ limit: "1mb" }));
 
 mongoose.connect('mongodb://localhost/test', {useNewUrlParser: true}).then(
   () => console.log("mongodb connection open!"),
-  (error) => {throw new Error(error)}
+  (error: string) => {throw new Error(error)}
 );
 
-app.get("/", (req, res)=> res.send('Hello World!'));
+app.get("/", (req, res)=> res.send('Kaputi!'));
 
 module.exports = app;
