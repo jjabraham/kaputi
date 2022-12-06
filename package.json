@@ -20,8 +20,8 @@
   "homepage": "https://github.com/jjabraham/kaputi#readme",
   "dependencies": {
     "@types/node": "^12.0.5",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "mongoose": "^5.5.13",
     "typescript": "^3.5.1"
   },
